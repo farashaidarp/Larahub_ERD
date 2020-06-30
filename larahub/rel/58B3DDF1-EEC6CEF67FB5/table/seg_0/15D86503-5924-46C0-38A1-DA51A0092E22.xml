@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15D86503-5924-46C0-38A1-DA51A0092E22" name="Komentar">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>9A98BC8B-1FC4-6029-3613-123F6CF4A822</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_komentar" id="C1839453-4759-07AC-FD19-60F6123232C2">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>53D84652-7445-30AD-5772-01E9B40AFFFF</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pemberi_komentar_id" id="16F9BF41-EFAE-41E1-7630-E9DE5CE994EA">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>4147D396-181D-AA09-5CBC-485D58D86560</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isi" id="97C1BD01-B759-CCD9-B32A-F7D2CB5F2CF5">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>D9B43EDA-4D03-F5FC-20EC-2ED9F85D5F96</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_Dibuat" id="D700B4A5-7451-FE82-AC99-B8398F1C4179">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>64BB191F-599F-12F9-1EB0-D428E5FB5F5E</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jawaban_id_Jawaban" id="BA0BF07D-53E5-D468-3036-1450C3D79573">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>4EEC858C-E486-FC86-42DF-85DB08377402</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="680BBFCE-ADC3-E449-0E4A-25C3498CE70C" referredColumn="15192559-9A40-C7C0-FE04-29410B04A772"/>
+</associations>
+</Column>
+<Column name="Jawaban_Pertanyaan_id_pertanyaan" id="D4B78972-53B1-A44D-6884-0D3763168D89">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>E4C3696F-22A7-C640-22BC-B20A0860F8A4</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="680BBFCE-ADC3-E449-0E4A-25C3498CE70C" referredColumn="F35EF65E-1E11-CE2B-1575-6413F7498A90"/>
+</associations>
+</Column>
+<Column name="Pertanyaan_id_pertanyaan" id="9E8741CF-79EF-C2BB-31E6-8C6C75F821C7">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>15564187-264E-EAB5-B130-F25C0B1F551B</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C360A47F-75BC-74E2-743C-55C421BE22C0" referredColumn="F4F7FCA2-80D8-8086-9A45-400B39B91FA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70379CE0-1FA5-1B37-3215-DE7FF2F57786" name="Komentar_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>1EBC5868-94FE-B0D1-6679-3E8B9E7E6108</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1839453-4759-07AC-FD19-60F6123232C2"/>
+<colUsage columnID="BA0BF07D-53E5-D468-3036-1450C3D79573"/>
+<colUsage columnID="D4B78972-53B1-A44D-6884-0D3763168D89"/>
+<colUsage columnID="9E8741CF-79EF-C2BB-31E6-8C6C75F821C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D66A875-F6B2-3332-39D9-2CBA781AA5DC" name="Komentar_Jawaban_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>6EA5B4C3-2A27-993F-6ABF-F74A7C55DE98</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA0BF07D-53E5-D468-3036-1450C3D79573"/>
+<colUsage columnID="D4B78972-53B1-A44D-6884-0D3763168D89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13559DD0-F61E-F8C7-10DD-F4C74477D92F" name="Komentar_Pertanyaan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>715E652A-60E6-0A75-70F1-69F5914F9AA2</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E8741CF-79EF-C2BB-31E6-8C6C75F821C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

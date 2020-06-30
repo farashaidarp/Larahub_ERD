@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63EF72EF-C6F5-7B04-6AFC-C4875C69DFA7" name="Profile">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>31FB92D3-35D0-5B25-6573-2C46A1964502</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profile" id="27C87065-7D2E-1C40-A663-F04AB442C655">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>54D4EC57-2232-468F-14D7-5B8BA8C47830</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_lengkap" id="11BC8E23-A068-3B3C-750F-A27ACEB071E4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>EE0E0449-A24D-A638-82F9-2CB34E177C8D</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat_email" id="9D0A779F-ED0C-1232-1B95-36CC484F3F9F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>08F2985A-ACA1-9C11-2270-8B07E6F83CC7</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="photo" id="477769ED-610D-ACC1-484B-C7248D3FF80A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>B761720E-B780-41DE-DE75-CC8EBDA6DDFC</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CE04E49-06DF-B7E7-D337-CE49F14273F8" name="Profile_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>8133590A-5FF8-CBD4-FA39-8916038ABF24</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C87065-7D2E-1C40-A663-F04AB442C655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="718AD356-A58F-DBAC-0472-517040A15780" name="Jawaban">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>20988C3C-AC2B-EE4D-2F7F-D3C1281FD9C3</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Jawaban" id="15192559-9A40-C7C0-FE04-29410B04A772">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>0963C79E-CBA4-2EC0-1863-53D81E5F6F29</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isi" id="A3C887A5-0A45-0574-9944-5E35C2B123D3">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>62264C60-3166-303D-9A81-74EDE6D12D4C</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_Dibuat" id="B9BB95A0-67D9-F397-8287-CADBD0650410">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>0356CE79-6383-EBDA-8228-0848E23B09E3</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_Diperbarui" id="2DA7D239-58F6-BA63-E2B1-470A6673DBAF">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>91F47117-C9F6-F0C3-4A7A-4EE5CCD7B6D6</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pertanyaan_id_pertanyaan" id="F35EF65E-1E11-CE2B-1575-6413F7498A90">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>38F4F823-8509-EB00-02B5-2C2313F81450</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6A96B3C-7719-E228-0574-FA54A13F155E" referredColumn="F4F7FCA2-80D8-8086-9A45-400B39B91FA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CF6E302-6639-DCD4-DB55-E6388A80E1E3" name="Jawaban_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>09E1E236-CFB9-C620-5362-18DFA81C1E31</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15192559-9A40-C7C0-FE04-29410B04A772"/>
+<colUsage columnID="F35EF65E-1E11-CE2B-1575-6413F7498A90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76AEBE54-D3F8-A6C4-CC2C-422167FA9201" name="Jawaban_Pertanyaan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>809AEEB4-5F7F-DD74-897E-C40C14E6C5AD</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35EF65E-1E11-CE2B-1575-6413F7498A90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

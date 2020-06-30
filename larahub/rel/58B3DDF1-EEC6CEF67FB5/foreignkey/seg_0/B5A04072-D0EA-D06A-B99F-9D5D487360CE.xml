@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5A04072-D0EA-D06A-B99F-9D5D487360CE" containerWithKeyObject="10125B8A-2A7E-BD59-43F8-1746A6F6E5AE" localFKIndex="F61B4522-1057-E8FB-2FF8-04B8D1604E98" name="Vote_Profile_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>18F50DD9-1656-98B0-A85D-A9DE804C2A2D</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<referredTableLongName>Profile</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63EF72EF-C6F5-7B04-6AFC-C4875C69DFA7</referredTableID>
+<keyObject>8CE04E49-06DF-B7E7-D337-CE49F14273F8</keyObject>
+<referredKeyID>8CE04E49-06DF-B7E7-D337-CE49F14273F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_profile</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="290288A7-6EAE-0A38-F2C0-D8FB40812ECF" mainViewID="410E8871-E48E-F9A6-223A-FD27D310285F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:08:32 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

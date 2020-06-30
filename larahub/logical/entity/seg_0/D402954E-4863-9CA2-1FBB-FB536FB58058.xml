@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D402954E-4863-9CA2-1FBB-FB536FB58058" name="Vote">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:40:33 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Vote" id="3005969F-2ECB-DB47-3F01-F2F8D4EF9080">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:40:41 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Like" id="804A1D67-3D87-C601-92C1-AB6150939DBE">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:40:49 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dislike" id="1CCB765B-C084-3E33-1F90-B548CF706DD1">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:40:58 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profile" id="5F146122-9CEE-9AD1-8571-EA128B0F3340">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:41:41 UTC</createdTime>
+<generatorID>18F50DD9-1656-98B0-A85D-A9DE804C2A2D</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>54D4EC57-2232-468F-14D7-5B8BA8C47830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_komentar" id="C9A56959-FAFC-1266-BC57-881E08FE20FF">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:49:46 UTC</createdTime>
+<generatorID>B5BAFD39-9B68-D9E9-CC4D-8480C5853BE0</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>53D84652-7445-30AD-5772-01E9B40AFFFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Jawaban" id="F7CA1DCA-468B-349E-6917-F63BA44F8B18">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:49:46 UTC</createdTime>
+<generatorID>B5BAFD39-9B68-D9E9-CC4D-8480C5853BE0</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>4EEC858C-E486-FC86-42DF-85DB08377402</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pertanyaan" id="DACE24E0-11DC-F708-7414-957226621E9F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:49:46 UTC</createdTime>
+<generatorID>B5BAFD39-9B68-D9E9-CC4D-8480C5853BE0</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>E4C3696F-22A7-C640-22BC-B20A0860F8A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pertanyaan1" id="AEC3990B-9F60-483B-EB34-A6E8F4888EF6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:49:46 UTC</createdTime>
+<generatorID>B5BAFD39-9B68-D9E9-CC4D-8480C5853BE0</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>15564187-264E-EAB5-B130-F25C0B1F551B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pertanyaan2" id="BED8EBAE-76D3-5ABB-29B5-2D6F6E2CCC13">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:50:01 UTC</createdTime>
+<generatorID>CB75A31C-CD0C-418D-CB12-D14F1A76EC8D</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>29025788-3F11-2800-579B-2E7BDA1424E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Jawaban1" id="E1236D7A-0B36-B14B-7EAD-D04A401F02F9">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:50:41 UTC</createdTime>
+<generatorID>53F74574-8632-23F6-C003-8BA1CDEF313F</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>0963C79E-CBA4-2EC0-1863-53D81E5F6F29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pertanyaan3" id="93E7D60C-3838-D5EB-46A0-709EAFFCC287">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:50:41 UTC</createdTime>
+<generatorID>53F74574-8632-23F6-C003-8BA1CDEF313F</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<referedAttribute>38F4F823-8509-EB00-02B5-2C2313F81450</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BB30881-3275-9D67-2D22-CB91412B5547" name="Vote PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:49:46 UTC</createdTime>
+<ownerDesignName>larahub</ownerDesignName>
+<engineerTo>
+<item key="58B3DDF1-021D-F9ED-926B-EEC6CEF67FB5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9A56959-FAFC-1266-BC57-881E08FE20FF</attributeRef>
+<attributeRef>F7CA1DCA-468B-349E-6917-F63BA44F8B18</attributeRef>
+<attributeRef>DACE24E0-11DC-F708-7414-957226621E9F</attributeRef>
+<attributeRef>AEC3990B-9F60-483B-EB34-A6E8F4888EF6</attributeRef>
+<attributeRef>BED8EBAE-76D3-5ABB-29B5-2D6F6E2CCC13</attributeRef>
+<attributeRef>E1236D7A-0B36-B14B-7EAD-D04A401F02F9</attributeRef>
+<attributeRef>93E7D60C-3838-D5EB-46A0-709EAFFCC287</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

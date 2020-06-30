@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D3B645C-789A-7CE1-E985-8674D208754F" containerWithKeyObject="10125B8A-2A7E-BD59-43F8-1746A6F6E5AE" localFKIndex="A0890CBC-36E3-2308-D962-91ED809D9C62" name="Vote_Pertanyaan_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-06-29 23:51:18 UTC</createdTime>
+<generatorID>CB75A31C-CD0C-418D-CB12-D14F1A76EC8D</generatorID>
+<ownerDesignName>larahub</ownerDesignName>
+<referredTableLongName>Pertanyaan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F77EF0A-97D5-3682-4493-C8FFE106460A</referredTableID>
+<keyObject>9ABF2276-D25F-C14F-5FE6-417244F16A69</keyObject>
+<referredKeyID>9ABF2276-D25F-C14F-5FE6-417244F16A69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pertanyaan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
